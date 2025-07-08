@@ -16,7 +16,7 @@ export default {
       },
       intlDescription: {
         id: getTranslation('form.description'),
-        defaultMessage: 'Generates a UUID v4',
+        defaultMessage: 'Generates a UUID v1',
       },
       icon: PluginIcon,
       components: {

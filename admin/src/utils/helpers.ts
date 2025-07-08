@@ -1,10 +1,10 @@
-import { v4, validate } from 'uuid';
+import { v1, validate } from 'uuid';
 import { randString } from 'regex-randstr';
 
 export const generateUUID = (format: string) => {
   try {
     if (!format) {
-      return v4();
+      return v1();
     }
     const regexFormat = new RegExp(format);
     return randString(regexFormat);
